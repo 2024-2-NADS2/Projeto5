@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Consumo de Água</title>
+    <style>
+        /* Estilos Gerais */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        /* Cabeçalho */
+        
+        header {
+            background-color: #021749fe;
+            color: white;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav .logo img {
+            height: 40px;
+            /* Ajuste o tamanho conforme necessário */
+        }
+        
+        nav .menu {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        nav .menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+        
+        nav .menu li a:hover {
+            color: #ddd;
+        }
+        /* Seção de Introdução */
+        
+        .intro {
+            background: linear-gradient(rgba(2, 19, 73, 1), rgba(2, 19, 73, 1)), url('banner.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        
+        .intro h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .intro p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            background-color: #00DEFE;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #00DEFE;
+        }
+        /* Seção de Funcionalidades */
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+            background-color: white;
+        }
+        
+        .feature {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        
+        .feature h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #021749fe;
+        }
+        
+        .feature p {
+            font-size: 1rem;
+            color: #555;
+        }
+        /* Seção de Chamadas para Ação */
+        
+        .call-to-action {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 40px 20px;
+        }
+        
+        .call-to-action h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .call-to-action p {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        /* Rodapé */
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        footer p {
+            margin: 10px 0;
+        }
+        
+        footer .social-media {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            /* Centraliza os ícones no rodapé */
+            gap: 15px;
+            padding: 0;
+        }
+        
+        footer .social-media li {
+            margin: 0;
+        }
+        
+        footer .social-media li a {
+            display: inline-block;
+            /* Faz com que a área clicável seja do tamanho da imagem */
+            cursor: pointer;
+            /* Muda o cursor para uma mão ao passar sobre o ícone */
+        }
+        
+        footer .social-media li img {
+            width: 30px;
+            /* Ajuste o tamanho conforme necessário */
+            height: auto;
+            transition: opacity 0.3s ease;
+            background: transparent;
+            /* Garante que o fundo da imagem não afete o site */
+            border: none;
+            /* Remove qualquer borda que possa estar na imagem */
+        }
+        
+        footer .social-media li img:hover {
+            opacity: 0.7;
+            /* Efeito ao passar o mouse sobre o ícone */
+        }
+        /* Responsividade */
+        
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature {
+                width: 100%;
+                max-width: 400px;
+            }
+            footer .footer-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="c:\Users\Lucca\OneDrive\Documentos\Untitled-removebg-preview.png" alt="Logo"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#cadastro">Cadastro</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#ajuda">Ajuda</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <!-- Seção de Introdução -->
+        <section class="intro">
+            <h1>Bem-vindo à Calculadora de Consumo de Água</h1>
+            <p>Calcule seu consumo mensal de água e descubra como economizar!</p>
+            <a href="#cadastro" class="cta-button">Cadastre-se Agora</a>
+        </section>
+
+        <!-- Seção de Funcionalidades -->
+        <section class="features">
+            <div class="feature">
+                <h2>Entrada de Dados de Consumo</h2>
+                <p>Insira informações sobre o uso de água em sua casa para calcular o consumo estimado.</p>
+            </div>
+            <div class="feature">
+                <h2>Gráficos e Histórico de Consumo</h2>
+                <p>Visualize seu histórico de cálculos e gráficos para monitorar o consumo ao longo do tempo.</p>
+            </div>
+            <div class="feature">
+                <h2>Sugestões de Economia</h2>
+                <p>Receba dicas personalizadas para reduzir seu consumo de água e economizar.</p>
+            </div>
+            <div class="feature">
+                <h2>Download de Relatório</h2>
+                <p>Baixe um relatório em PDF com seus dados de consumo e sugestões de economia.</p>
+            </div>
+        </section>
+
+        <!-- Seção de Chamadas para Ação -->
+        <section class="call-to-action">
+            <h2>Pronto para começar?</h2>
+            <p>Cadastre-se agora e comece a monitorar seu consumo de água!</p>
+            <a href="#cadastro" class="cta-button">Cadastre-se</a>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 HYDRA. Todos os direitos reservados.</p>
+            <ul class="social-media">
+                <li>
+                    <a href="https://www.facebook.com" target="_blank"><img src="c:\Users\Lucca\OneDrive\Documentos\1723789425facebook-f-logo.png" alt="Facebook" /></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank"><img src="C:\Users\Lucca\OneDrive\Documentos\pninsta.png" alt="Instagram" /></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
