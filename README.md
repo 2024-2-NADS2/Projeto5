@@ -7,7 +7,7 @@
 # Projeto: Pegada hidrica
 ## Grupo: HYDRA
 ## Integrantes: <a href="https://www.linkedin.com/in/nathan-lucena-0a271a26a">Nathan Silva de Lucena</a>, <a href="https://www.linkedin.com/in/raissa-elias-873178232/">Raissa Elias Silva</a>, <a href="https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Lucca Brandão</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-">Murilo Lopes<a>.
+">Murilo Lopes<a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 ## Descrição:
