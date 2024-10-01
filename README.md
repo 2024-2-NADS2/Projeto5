@@ -4,23 +4,23 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Projeto: Bicicleta Inteligente
-## Grupo: MNR
-## Integrantes: <a href="https://www.linkedin.com/in/nathan-lucena-0a271a26a">Nathan Silva de Lucena</a>, <a href="https://www.linkedin.com/in/raissa-elias-873178232/">Raissa Elias Silva</a>, <a href="https://www.linkedin.com/in/marcella-santana-b76883262/">Marcella Santana Gonçalves Diniz Rocha</a>
+# Projeto: Pegada hidrica
+## Grupo: HYDRA
+## Integrantes: <a href="https://www.linkedin.com/in/nathan-lucena-0a271a26a">Nathan Silva de Lucena</a>, <a href="https://www.linkedin.com/in/raissa-elias-873178232/">Raissa Elias Silva</a>, <a href="https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Lucca Brandão</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+">Murilo Lopes<a>.
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Felix Valente</a>
-
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
 ## Descrição:
 
 <p align="center">
 <img src = "https://i.imgur.com/isBKZ3g.jpeg">
 <img src = "https://i.imgur.com/NAtLLEr.jpeg">
-  Projeto por Marcella Santana, Raissa Elias e Nathan Lucena.
+  Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
 
 
 
 <br><br>
-Uma bicicleta 'inteligente' que conta a velocidade em km/h e os batimentos cardíacaos em bpm por meio de sensores aplicados em um arduíno esp32 que envia essas informações em tempo real a um app via plataforma Blynk e perrmite que o usuário monitore seu desempenho a qualquer instante. O projeto tem como objetivo o monitoramento de desempenho mas, também é possível ajudar pessoas que procuram o ciclismo como um exercício para melhorar a saúde e investir no bem-estar, e, assim, progredir a qualidade de vida. 
+Um site que calcula a pegada hídrica de um estabelecimento, e permite aos usuários estimarem o volume total de água consumida direta e indiretamente. Ele geralmente solicita informações sobre atividades diárias, como consumo de água para higiene pessoal, limpeza, preparo de alimentos e uso de eletrônicos. Além disso, pode incluir dados sobre o uso de produtos e serviços que demandam água em sua produção. Com esses dados, o site calcula a pegada hídrica total, ajudando a conscientizar sobre o impacto do uso de água e formas de reduzi-lo.
 <br><br>
 
 ## 🛠 Estrutura de pastas
