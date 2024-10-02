@@ -12,7 +12,7 @@
 ## Descrição:
 
 <p align="center">
-<img src = "">
+<img src = "C:\Users\24026594\Pictures\login.png">
 <img src = "">
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
 
