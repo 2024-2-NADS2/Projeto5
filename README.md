@@ -58,7 +58,7 @@ Há também 4 pastas que seguem da seguinte forma:
 A cada atualização os detalhes devem ser lançados aqui.
 
 * 0.2.1 - 01/10/2024
-    * Projeto concluído para primeira e segunda entrga.
+    * Projeto concluído para primeira e segunda entrega.
 * 0.2.0 - 22/09/2024
     * Criação do Layout e prototipação no FIGMA.
 * 0.1.1 - 12/09/2024
