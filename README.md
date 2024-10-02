@@ -51,7 +51,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Instalação/Criação do site
+## 🛠 Instalação
 lorem
 <br><br>
 
