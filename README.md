@@ -55,6 +55,11 @@ Há também 4 pastas que seguem da seguinte forma:
 lorem
 <br><br>
 
+## 🛠 Configuração para desenvolvimento
+Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+
+Para abrir este projeto você necessita das seguintes ferramentas:
+
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
