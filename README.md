@@ -75,11 +75,9 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://randomnerdtutorials.com/getting-started-with-esp32/>
-2. <https://docs.espressif.com/projects/esptool/en/latest/esp32/troubleshooting.html>
-3. <https://curtocircuito.com.br/blog/Categoria%20IoT/utilizando-blynk-esp32>
-4. <https://www.youtube.com/watch?v=t-gMQDGB-9g>
-5. <https://lobodarobotica.com/blog/esp32-pinout/>
-6. <https://www.fernandok.com/2018/03/esp32-detalhes-internos-e-pinagem.html>
-7. <https://clubedomaker.com/esp32-pinout>
-8. <https://www.youtube.com/watch?v=W1xG_XJb0FU>
+1. <https://www.w3schools.com/howto/howto_css_login_form.asp>
+2. <https://www.w3schools.com/react/default.asp>
+3. <https://youtu.be/DL6oOdm9308?si=X_QlVQzut-FfFleF>
+4. <https://www.youtube.com/@ProfessorChicoEscobar>
+5. <https://youtu.be/Z-LwNMHiJDw?si=R_nfm5spck-RuFlj>
+
