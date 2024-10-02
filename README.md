@@ -13,6 +13,8 @@
 
 <p align="center">
 <img src = "C:\Users\24026594\Pictures\login.png">
+<img src = "C:\Users\24026594\Pictures\login.png">
+
 
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
 
