@@ -12,8 +12,8 @@
 ## Descrição:
 
 <p align="center">
-<img src = "C:\Users\24026594\Pictures\login.png">
-<img src = "C:\Users\24026594\Pictures\login.png">
+<img src = "![login](https://github.com/user-attachments/assets/48659988-abec-4c18-9f46-cf7cbd94a64e)">
+<img src = "">
 
 
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
