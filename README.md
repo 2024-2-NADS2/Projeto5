@@ -62,7 +62,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.2.0 - 22/09/2024
     * Criação do Layout e prototipação no FIGMA.
 * 0.1.1 - 12/09/2024
-   O código das 3 telas foi feito.
+    * O código das 3 telas foi feito.
 * 0.1.0 - 01/09/2024
     * Criamos a home utilizando as tecnologias desejadas (html, css e javaScript).
 * 0.0.1 - 30/08/2024
