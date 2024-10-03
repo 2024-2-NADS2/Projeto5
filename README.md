@@ -54,9 +54,9 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
-git-scm
-visual studio code
-node.js
+git-scm,
+visual studio code,
+e node.js
 <br><br>
 
 ## 🛠 Configuração para desenvolvimento
