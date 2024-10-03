@@ -55,7 +55,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 git-scm,
-visual studio code,
+visual studio code
 e node.js
 <br><br>
 
