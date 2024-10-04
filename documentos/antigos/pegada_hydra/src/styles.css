@@ -13,11 +13,10 @@ body {
     background-color: #f5f5f5;
 }
 
-
 /* Cabeçalho */
 
 header {
-    background-color: #87ceeb;
+    background-color: #021749fe;
     color: white;
     padding: 15px 20px;
     position: sticky;
@@ -33,7 +32,6 @@ nav {
 
 nav .logo img {
     height: 40px;
-    /* Ajuste o tamanho conforme necessário */
 }
 
 nav .menu {
@@ -53,11 +51,10 @@ nav .menu li a:hover {
     color: #ddd;
 }
 
-
 /* Seção de Introdução */
 
 .intro {
-    background: linear-gradient(rgba(135, 206, 235, 0.7), rgba(135, 206, 235, 0.7)), url('./assets/images/logo.svg') center/cover no-repeat;
+    background: linear-gradient(rgba(2, 23, 73, 0.996), rgba(2, 23, 73, 0.996)), url('file:///C:/Users/23024740/Desktop/Projeto5/documentos/antigos/pegada_hydra/src/logo.svg') center/cover no-repeat;
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -74,7 +71,7 @@ nav .menu li a:hover {
 }
 
 .cta-button {
-    background-color: #00BFFF;
+    background-color: #00DEFE;
     color: white;
     text-decoration: none;
     padding: 15px 30px;
@@ -84,9 +81,8 @@ nav .menu li a:hover {
 }
 
 .cta-button:hover {
-    background-color: #00BFFF;
+    background-color: #021749fe;
 }
-
 
 /* Seção de Funcionalidades */
 
@@ -111,14 +107,13 @@ nav .menu li a:hover {
 .feature h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: #021749fe;
 }
 
 .feature p {
     font-size: 1rem;
     color: #555;
 }
-
 
 /* Seção de Chamadas para Ação */
 
@@ -140,7 +135,6 @@ nav .menu li a:hover {
     margin-bottom: 30px;
 }
 
-
 /* Rodapé */
 
 footer {
@@ -148,12 +142,12 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    position: relative; /* Para permitir posicionamento absoluto dentro do rodapé */
 }
 
 footer .footer-content {
     display: flex;
     justify-content: center;
-    /* Centraliza o conteúdo no rodapé */
     flex-wrap: wrap;
 }
 
@@ -161,34 +155,30 @@ footer p {
     margin: 10px 0;
 }
 
+/* Ícones de Redes Sociais */
+
 footer .social-media {
     list-style: none;
     display: flex;
-    justify-content: center;
-    /* Centraliza os ícones no rodapé */
     gap: 15px;
     padding: 0;
+    position: absolute; /* Posiciona os ícones de forma absoluta */
+    bottom: 10px; /* Distância da borda inferior do rodapé */
+    right: 20px; /* Distância da borda direita do rodapé */
 }
 
 footer .social-media li {
     margin: 0;
 }
 
-
-/* Adicione os ícones das redes sociais aqui */
-
 footer .social-media li img {
-    width: 30px;
-    /* Ajuste o tamanho conforme necessário */
+    width: 30px; /* Ajuste o tamanho conforme necessário */
     height: auto;
     background: transparent;
-    /* Garante que o fundo da imagem não afete o site */
     border: none;
-    /* Remove qualquer borda que possa estar na imagem */
     transition: opacity 0.3s ease;
 }
 
 footer .social-media li img:hover {
     opacity: 0.7;
-    /* Efeito ao passar o mouse sobre o ícone */
 }
