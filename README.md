@@ -15,7 +15,8 @@
 <img src = "">
 <img src = "">
 
-
+  Figma: https://www.figma.com/design/XDjw4T01envcTu8bx7QFhu/Untitled?node-id=0-1&t=BA3opHSSXGcUJ3h2-1
+  
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
 
 
