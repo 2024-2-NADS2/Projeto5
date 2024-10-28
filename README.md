@@ -12,7 +12,7 @@
 ## Descrição:
 
 <p align="center">
-<img src = "">
+<img src = "![logo](https://github.com/user-attachments/assets/1fe4517c-42be-4071-b728-8549cca4faa1)">
 
   
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
