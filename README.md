@@ -91,7 +91,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.10.10 - 15/10/2024 
     * Documento de Requisitos Funcionais, Não Funcionais e 3 Casos de Uso. (Raissa)
 * 0.9.9 - 02/10/2024 
-    * Desenvolvimento do Site em React (Lucca e Raissa)
+    * Desenvolvimento do Site em React (Lucca e Nathan)
 * 0.8.8 - 01/10/2024
     * Projeto concluído para primeira e segunda entrega. (todos)
 * 0.7.7 - 22/09/2024
@@ -103,11 +103,11 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.4.4 - 12/09/2024 
     * O código das 3 telas foi feito. (Todos)
 * 0.3.3 - 01/09/2024 
-    * Criação da home Page utilizando as tecnologias desejadas (HTML, CSS e JS). (Todos)
+    * Criação da home Page utilizando as tecnologias desejadas (HTML, CSS e JS). (Lucca)
 * 0.2.2 - 31/08/2024 
-    * Criação da pagina de login. (Raissa)
+    * Criação da página de login. (Raissa)
 * 0.1.1 - 30/08/2024 
-    * Iniciamos o projeto criando o rascunho do modelo de login, definimos a estrutura de dados utilizada, e logo começamos a colocar em pratica. (Todos)
+    * Iniciamos o projeto criando o rascunho do modelo de login, definimos a estrutura de dados utilizada, e logo começamos a colocar em prática. (Todos)
 
 ## 📋 Licença/License
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-2-NADS2/Projeto5">Pegada Hídrica</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-2-NADS2/Projeto5">FECAP, Nathan Lucena, Raissa Elias, Murilo Lopes, Lucca Brandão</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
