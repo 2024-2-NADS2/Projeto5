@@ -68,7 +68,7 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [HTML]([https://expo.io/](https://www.w3schools.com/html/)
+- [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
 - [JS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
 - [REACT](https://pt-br.reactjs.org/)
