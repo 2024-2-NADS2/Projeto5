@@ -52,8 +52,8 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## 🛠 FIGMA 
-## 🛠 Link para o figma
-<https://www.figma.com/design/XDjw4T01envcTu8bx7QFhu/Untitled?node-id=0-1&t=BA3opHSSXGcUJ3h2-1>.
+
+[Link para o figma](https://www.figma.com/design/XDjw4T01envcTu8bx7QFhu/Untitled?node-id=0-1&t=BA3opHSSXGcUJ3h2-1)
 
 ## 🛠 Instalação
 lorem
