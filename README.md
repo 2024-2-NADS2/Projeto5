@@ -74,9 +74,9 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.11.11 - 20/10/2024 Em andamento
     * Criar o Banco de Dados (Nathan)
 * 0.10.10 - 15/10/2024 
-    Documento de Requisitos Funcionais, Não Funcionais e 3 Casos de Uso. (Raissa)
+    * Documento de Requisitos Funcionais, Não Funcionais e 3 Casos de Uso. (Raissa)
 * 0.9.9 - 02/10/2024 
-    Desenvolvimento do Site em React (Lucca e Raissa)
+    * Desenvolvimento do Site em React (Lucca e Raissa)
 * 0.8.8 - 01/10/2024
     * Projeto concluído para primeira e segunda entrega. (todos)
 * 0.7.7 - 22/09/2024
