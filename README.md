@@ -13,7 +13,7 @@
 
 <p align="center">
 <img src = "">
-<img src = "">
+
   
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
 
@@ -51,18 +51,30 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 FIGMA 
-
+## 🖱️ FIGMA 
+Aperte para visualizar
 [Link para o figma](https://www.figma.com/design/XDjw4T01envcTu8bx7QFhu/Untitled?node-id=0-1&t=BA3opHSSXGcUJ3h2-1)
 
 ## 🛠 Instalação
-lorem
-<br><br>
-
-## 🛠 Configuração para desenvolvimento
+ Instale o Node.js a partir do site oficial: [Node.js.](https://nodejs.org/pt)
+ 
+## 💻 Configuração do projeto
 Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
 
 Para abrir este projeto você necessita das seguintes ferramentas:
+
+
+### 📱 Técnicas e Tecnologias utilizadas.
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML]([https://expo.io/](https://www.w3schools.com/html/))
+- [CSS](https://www.w3schools.com/css/)
+- [JS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [REACT](https://pt-br.reactjs.org/)
+- [Mysql](https://www.mysql.com/)
+- [Node.js](https://nodejs.org/en/)
+
 
 ## 🗃 Histórico de lançamentos
 
