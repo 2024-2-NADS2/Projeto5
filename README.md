@@ -12,7 +12,8 @@
 ## Descrição:
 
 <p align="center">
-<img src = "![logo](https://github.com/user-attachments/assets/1fe4517c-42be-4071-b728-8549cca4faa1)">
+<img src = "![Captura de Tela (2)](https://github.com/user-attachments/assets/a167e7c5-26af-48f7-9400-206dc95e94d9)
+">
 
   
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
