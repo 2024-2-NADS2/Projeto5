@@ -8,6 +8,9 @@ import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import Register from './components/Register';
+import Ajuda from './components/Ajuda';
+import Contact from './components/Contact';
+
 
 function App() {
   return (
@@ -23,7 +26,8 @@ function App() {
         } />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        {/* Outras rotas podem ser adicionadas aqui */}
+        <Route path="/ajuda" element={<Ajuda />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>
