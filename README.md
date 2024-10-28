@@ -65,7 +65,7 @@ Descreva como instalar todas as dependências para desenvolvimento e como rodar 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 
-### 📱 Técnicas e Tecnologias utilizadas.
+## 📱 Técnicas e Tecnologias utilizadas.
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
