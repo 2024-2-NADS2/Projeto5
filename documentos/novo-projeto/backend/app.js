@@ -1,36 +1,37 @@
+// app.js
 const express = require('express');
-const db = require('./database');
+const cors = require('cors');
+const Usuario = require('./usuario'); // Importa a classe Usuario
 const app = express();
-const cors = require('cors');  
-app.use(cors());  
-const PORT = 3001;
 
+app.use(cors());
 app.use(express.json());
 
+const PORT = 3001;
+
+// Rota para cadastrar um novo usuário
 app.post('/api/usuarios', (req, res) => {
   const { nome_completo, email, senha, cnpj, endereco, estado, cidade, telefone } = req.body;
-
-  // Verifica se o e-mail já existe no banco de dados
-  db.get(`SELECT * FROM usuarios WHERE email = ?`, [email], (err, row) => {
+  
+  // Verifica se o e-mail já existe usando o método estático da classe Usuario
+  Usuario.buscarPorEmail(email, (err, usuarioExistente) => {
     if (err) {
       console.error('Erro ao consultar o banco de dados:', err.message);
       return res.status(500).json({ message: 'Erro no servidor.' });
     }
 
-    if (row) {
-      // E-mail já existe
+    if (usuarioExistente) {
       return res.status(400).json({ message: 'E-mail já cadastrado.' });
     }
 
-    // Insere o novo usuário se o e-mail não existir
-    const query = `INSERT INTO usuarios (nome_completo, email, senha, cnpj, endereco, estado, cidade, telefone) VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
-
-    db.run(query, [nome_completo, email, senha, cnpj, endereco, estado, cidade, telefone], function (err) {
+    // Cria uma nova instância da classe Usuario e tenta salvar no banco
+    const novoUsuario = new Usuario(nome_completo, email, senha, cnpj, endereco, estado, cidade, telefone);
+    novoUsuario.salvar((err, userId) => {
       if (err) {
         console.error('Erro ao inserir usuário:', err.message);
         res.status(400).json({ message: 'Erro ao cadastrar usuário' });
       } else {
-        res.status(201).json({ message: 'Usuário cadastrado com sucesso', userId: this.lastID });
+        res.status(201).json({ message: 'Usuário cadastrado com sucesso', userId });
       }
     });
   });
