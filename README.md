@@ -81,25 +81,30 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-
-* 0.12.12 - 28/10/2024
+* 0.16.16 - 30/10/2024
+    * Projeto concluído para terceira entrega. (todos)
+* 0.15.15 - 28/10/2024
+    * Criação do backend. (Nathan e Lucca)
+* 0.14.14 - 24/10/2024
+    * Criação da calculadora de pegada hídrica do site. (Murilo)
+* 0.13.13 - 23/10/2024
     * Criação de mais duas páginas. (Lucca)
 * 0.12.12 - 22/10/2024
     * Diagrama de Classe. (Raissa)
 * 0.11.11 - 20/10/2024 
-    * Criar o Banco de Dados (Nathan)
+    * Criar o Banco de Dados e subir para azure. (Nathan)
 * 0.10.10 - 15/10/2024 
     * Documento de Requisitos Funcionais, Não Funcionais e 3 Casos de Uso. (Raissa)
 * 0.9.9 - 02/10/2024 
-    * Desenvolvimento do Site em React (Lucca e Nathan)
+    * Desenvolvimento do Site em React. (Lucca e Nathan)
 * 0.8.8 - 01/10/2024
     * Projeto concluído para primeira e segunda entrega. (todos)
 * 0.7.7 - 22/09/2024
-    * Criação do Layout e prototipação no FIGMA.(Murilo)
+    * Criação do Layout e prototipação no FIGMA. (Murilo)
 * 0.6.6 - 20/09/2024
     * Entrega de classes. (Nathan)
 * 0.5.5 - 20/09/2024
-    *  Criação do guia de estilo (Murilo)  
+    *  Criação do guia de estilo. (Murilo e Raissa)  
 * 0.4.4 - 12/09/2024 
     * O código das 3 telas foi feito. (Todos)
 * 0.3.3 - 01/09/2024 
