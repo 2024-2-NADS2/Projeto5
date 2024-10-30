@@ -86,7 +86,7 @@ A cada atualização os detalhes devem ser lançados aqui.
     * Criação de mais duas páginas. (Lucca)
 * 0.12.12 - 22/10/2024
     * Diagrama de Classe. (Raissa)
-* 0.11.11 - 20/10/2024 Em andamento
+* 0.11.11 - 20/10/2024 
     * Criar o Banco de Dados (Nathan)
 * 0.10.10 - 15/10/2024 
     * Documento de Requisitos Funcionais, Não Funcionais e 3 Casos de Uso. (Raissa)
