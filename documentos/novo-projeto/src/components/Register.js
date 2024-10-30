@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Register = () => {
   const [formData, setFormData] = useState({
-    nome: '',
+    nome_completo: '',
     email: '',
     senha: '',
     cnpj: '',
@@ -19,9 +19,26 @@ const Register = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Dados enviados:', formData);
+
+    try {
+      const response = await fetch('http://localhost:3001/api/usuarios', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        alert('Usuário cadastrado com sucesso!');
+      } else {
+        const errorData = await response.json();
+        alert(`Erro ao cadastrar usuário: ${errorData.message}`);
+      }
+    } catch (error) {
+      console.error('Erro ao conectar com o backend:', error);
+      alert('Erro ao enviar os dados. Verifique a conexão com o backend.');
+    }
   };
 
   return (
@@ -31,7 +48,7 @@ const Register = () => {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            name="nome"
+            name="nome_completo"
             placeholder="Nome Completo"
             value={formData.nome}
             onChange={handleChange}
