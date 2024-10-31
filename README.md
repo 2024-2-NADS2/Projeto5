@@ -81,8 +81,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.16.16 - 30/10/2024
+* 0.17.17 - 30/10/2024
     * Projeto concluído para terceira entrega. (todos)
+* 0.16.16 - 29/10/2024
+    * Implementação de um algoritmo de busca de dados com propriedade. (Raissa)
 * 0.15.15 - 28/10/2024
     * Criação do backend. (Nathan e Lucca)
 * 0.14.14 - 24/10/2024
@@ -104,7 +106,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.6.6 - 20/09/2024
     * Entrega de classes. (Nathan)
 * 0.5.5 - 20/09/2024
-    *  Criação do guia de estilo. (Murilo e Raissa)  
+    *  Criação do guia de estilo e prototipação (FIGMA). (Murilo e Raissa)  
 * 0.4.4 - 12/09/2024 
     * O código das 3 telas foi feito. (Todos)
 * 0.3.3 - 01/09/2024 
