@@ -1,0 +1,7 @@
+C:\Users\Lucca\Downloads\dotneth\BackendDotNet\obj\Debug\net7.0\BackendDotNet.csproj.AssemblyReference.cache
+C:\Users\Lucca\Downloads\dotneth\BackendDotNet\obj\Debug\net7.0\BackendDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucca\Downloads\dotneth\BackendDotNet\obj\Debug\net7.0\BackendDotNet.AssemblyInfoInputs.cache
+C:\Users\Lucca\Downloads\dotneth\BackendDotNet\obj\Debug\net7.0\BackendDotNet.AssemblyInfo.cs
+C:\Users\Lucca\Downloads\dotneth\BackendDotNet\obj\Debug\net7.0\BackendDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Lucca\Downloads\dotneth\BackendDotNet\obj\Debug\net7.0\BackendDotNet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lucca\Downloads\dotneth\BackendDotNet\obj\Debug\net7.0\BackendDotNet.MvcApplicationPartsAssemblyInfo.cache
