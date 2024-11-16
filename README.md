@@ -64,7 +64,7 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 ## 📱 Técnicas e Tecnologias utilizadas.
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas que foram utilizadas na construção do projeto:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
