@@ -12,10 +12,11 @@
 ## Descrição:
 
 <p align="center">
-<img src = "![Captura de Tela (4)](https://github.com/user-attachments/assets/81cfa0bb-c951-477a-bbc7-5c3c02f69328)">
 
 
-  
+![Captura de Tela (4)](https://github.com/user-attachments/assets/f514f586-b82a-468c-9110-25a7394ac3b1)
+
+  <p align="center">
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
 
 
