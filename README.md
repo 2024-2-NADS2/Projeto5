@@ -12,7 +12,7 @@
 ## Descrição:
 
 <p align="center">
-![Captura de Tela (4)](https://github.com/user-attachments/assets/81cfa0bb-c951-477a-bbc7-5c3c02f69328)
+<img src = "![Captura de Tela (4)](https://github.com/user-attachments/assets/81cfa0bb-c951-477a-bbc7-5c3c02f69328)">
 
 
   
