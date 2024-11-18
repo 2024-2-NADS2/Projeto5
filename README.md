@@ -80,14 +80,16 @@ As seguintes ferramentas que foram utilizadas na construção do projeto:
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.21.21 - 18/11/2024
+* 0.22.22 - 18/11/2024
     * Projeto concluído para entrega. (todos)
-* 0.20.20 - 10/11/2024
-    * Projeto de arquitetura da implementação do sistema. (Raissa)
-* 0.19.19 - 05/11/2024
+* 0.21.21 - 10/11/2024
+    * Projeto de arquitetura da implementação do sistema. (Nathan)
+* 0.20.20 - 05/11/2024
     * Backend em .NET, orientado a objetos com banco de dados. (Lucca)
-* 0.18.18 - 03/11/2024
+* 0.19.19 - 03/11/2024
     * Entrega do Protótipo finalizado e do guia de estilo. (Raissa)
+* 0.18.18 - 01/11/2024
+  Banco de dados online conectado na azure. (Murilo)
 * 0.17.17 - 30/10/2024
     * Projeto concluído para terceira entrega. (todos)
 * 0.16.16 - 29/10/2024
