@@ -12,10 +12,11 @@
 ## Descrição:
 
 <p align="center">
-<img src = "![Captura de Tela (2)](https://github.com/user-attachments/assets/a167e7c5-26af-48f7-9400-206dc95e94d9)
-">
 
-  
+
+![Captura de Tela (4)](https://github.com/user-attachments/assets/f514f586-b82a-468c-9110-25a7394ac3b1)
+
+  <p align="center">
   Projeto por Lucca Brandão, Murilo Lopes, Nathan Lucena e Raissa Elias.
 
 
@@ -31,10 +32,6 @@ Um site que calcula a pegada hídrica de um estabelecimento, e permite aos usuá
 |-->documentos<br>
   &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
@@ -67,7 +64,7 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 
 ## 📱 Técnicas e Tecnologias utilizadas.
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas que foram utilizadas na construção do projeto:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
@@ -75,14 +72,26 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [REACT](https://pt-br.reactjs.org/)
 - [Mysql](https://www.mysql.com/)
 - [Node.js](https://nodejs.org/en/)
+- [CRUD](https://coodesh.com/blog/dicionario/o-que-e-crud/#:~:text=Primeiramente%2C%20CRUD%20%C3%A9%20o%20acr%C3%B4nimo,sua%20m%C3%A1quina%20ou%20na%20nuvem.)
+  
 
 
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.16.16 - 30/10/2024
+* 0.21.21 - 18/11/2024
+    * Projeto concluído para entrega. (todos)
+* 0.20.20 - 10/11/2024
+    * Projeto de arquitetura da implementação do sistema. (Raissa)
+* 0.19.19 - 05/11/2024
+    * Backend em .NET, orientado a objetos com banco de dados. (Lucca)
+* 0.18.18 - 03/11/2024
+    * Entrega do Protótipo finalizado e do guia de estilo. (Raissa)
+* 0.17.17 - 30/10/2024
     * Projeto concluído para terceira entrega. (todos)
+* 0.16.16 - 29/10/2024
+    * Implementação de um algoritmo de busca de dados com propriedade. (Raissa)
 * 0.15.15 - 28/10/2024
     * Criação do backend. (Nathan e Lucca)
 * 0.14.14 - 24/10/2024
@@ -92,7 +101,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.12.12 - 22/10/2024
     * Diagrama de Classe. (Raissa)
 * 0.11.11 - 20/10/2024 
-    * Criar o Banco de Dados e subir para azure. (Nathan)
+    * Criar o Banco de Dados e subir para azure. (Nathan, Raissa)
 * 0.10.10 - 15/10/2024 
     * Documento de Requisitos Funcionais, Não Funcionais e 3 Casos de Uso. (Raissa)
 * 0.9.9 - 02/10/2024 
@@ -104,13 +113,13 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.6.6 - 20/09/2024
     * Entrega de classes. (Nathan)
 * 0.5.5 - 20/09/2024
-    *  Criação do guia de estilo. (Murilo e Raissa)  
+    *  Criação do guia de estilo e prototipação (FIGMA). (Murilo e Raissa)  
 * 0.4.4 - 12/09/2024 
     * O código das 3 telas foi feito. (Todos)
 * 0.3.3 - 01/09/2024 
     * Criação da home Page utilizando as tecnologias desejadas (HTML, CSS e JS). (Lucca)
 * 0.2.2 - 31/08/2024 
-    * Criação da página de login. (Raissa)
+    * Criação da página de login e cadastro. (Raissa)
 * 0.1.1 - 30/08/2024 
     * Iniciamos o projeto criando o rascunho do modelo de login, definimos a estrutura de dados utilizada, e logo começamos a colocar em prática. (Todos)
 
