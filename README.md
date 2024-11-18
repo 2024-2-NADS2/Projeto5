@@ -51,7 +51,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🖱️ FIGMA 
 Aperte para visualizar
-[Link para o figma](https://www.figma.com/design/QnuNTJxtMbLB7Taxbjcco6/Untitled?node-id=0-1&t=u1mhtqNxjdK9CCon-1)
+[Link para o figma](https://www.figma.com/design/AyKUvC9zQ9TW6k8Y5N9R4a/Untitled-(Copy)?node-id=0-1&t=OTifBsQ7tEEK0h7A-1)
 
 ## 🛠 Instalação
  Instale o Node.js a partir do site oficial: [Node.js.](https://nodejs.org/pt)
