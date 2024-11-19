@@ -8,7 +8,8 @@
 ## Grupo:💧 HYDRA 💧
 ## Integrantes: <a href="https://www.linkedin.com/in/nathan-lucena-0a271a26a">Nathan Silva de Lucena</a>, <a href="https://www.linkedin.com/in/raissa-elias-873178232/">Raissa Elias Silva</a>, <a href="https://www.linkedin.com/in/lucca-brand%C3%A3o-821044243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Lucca Brandão</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Murilo Lopes<a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/aimarlopes/">Aimar Martins Lopes</a>, <a href="https://www.linkedin.com/in/francisco-escobar/">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/jbuesso/">José Carlos Buesso</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Eduardo Savino Gomes</a>
+
 ## Descrição:
 
 <p align="center">
@@ -51,7 +52,9 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🖱️ FIGMA 
 Aperte para visualizar
-[Link para o figma](https://www.figma.com/design/AyKUvC9zQ9TW6k8Y5N9R4a/Untitled-(Copy)?node-id=0-1&t=OTifBsQ7tEEK0h7A-1)
+[Link para o figma Protótipo](https://www.figma.com/design/AyKUvC9zQ9TW6k8Y5N9R4a/Untitled-(Copy)?node-id=0-1&t=OTifBsQ7tEEK0h7A-1)<br>
+Aperte para visualizar
+[Link para o figma Desing System](https://www.figma.com/design/sWZ5CfRR8Eo5BJHJUUWpnG/Design-System-Helping-Out-(Copy)?node-id=0-1&node-type=canvas&t=tuZ2qgM96jj9XgYe-0)
 
 ## 🛠 Instalação
  Instale o Node.js a partir do site oficial: [Node.js.](https://nodejs.org/pt)
