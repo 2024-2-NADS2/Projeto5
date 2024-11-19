@@ -66,7 +66,7 @@ Aperte para visualizar
 - [.NET SDK](https://dotnet.microsoft.com/pt-br/)
 
 ## 💻 Configuração do projeto
-## - Clone o Repositório  
+##  Clone o Repositório  
 Abra o GitHub Desktop, clique em File > clone repository. Na aba URL, insira o seguinte link: https://github.com/2024-2-NADS2/Projeto5.git. Escolha uma pasta no seu computador para salvar o projeto e clique em clone. Depois de clonar, abra a pasta do projeto no seu editor de código.
 
 ## Instalar Dependências
@@ -78,6 +78,7 @@ No terminal, acesse a pasta do backend: cd backend. Restaure as dependências: d
 
 ## Configure o Banco de Dados (MySQL)
 Abra o MySQL Workbench ou terminal MySQL, crie um banco de dados chamado pegada_hydrica: CREATE DATABASE pegada_hydrica;
+
 No backend, configure o arquivo appsettings.json com as credenciais do banco: "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=pegada_hydrica;User Id=seu_usuario;Password=sua_senha;"
 }
