@@ -89,6 +89,33 @@ Navegue para a pasta do backend no terminal: cd backend. Inicie o servidor: dotn
 - Frontend
 Abra outro terminal e vá para a pasta do frontend: cd frontend. Inicie o servidor: npm start. O frontend estará disponível em http://localhost:3000.
 
+## Funcionalidades CRUD
+- Usuários
+Criar Usuário:
+
+Endpoint: POST /api/users/register
+Envie os dados do usuário no corpo da requisição (JSON):
+{
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "senhaSegura123"
+}
+
+Ler Usuário(s):
+
+Endpoint: GET /api/users
+Retorna a lista de todos os usuários cadastrados no banco de dados.
+
+Atualizar Usuário:
+
+Endpoint: PUT /api/users/{id}
+Atualiza os dados do usuário com base no id.
+
+Excluir Usuário:
+
+Endpoint: DELETE /api/users/{id}
+Remove o usuário correspondente ao id fornecido.
+
 ## Rodar Testes Automatizados
 - Testes no Backend (.NET)
 Navegue até a pasta do backend no terminal: cd backend. Execute os testes com o seguinte comando: dotnet test. O resultado dos testes será exibido no terminal, incluindo detalhes sobre falhas e sucesso.
