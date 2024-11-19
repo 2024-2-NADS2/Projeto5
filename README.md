@@ -91,6 +91,7 @@ Abra outro terminal e vá para a pasta do frontend: cd frontend. Inicie o servid
 
 ## Funcionalidades CRUD
 - Usuários
+
 Criar Usuário:
 
 Endpoint: POST /api/users/register
@@ -102,17 +103,14 @@ Envie os dados do usuário no corpo da requisição (JSON):
 }
 
 Ler Usuário(s):
-
 Endpoint: GET /api/users
 Retorna a lista de todos os usuários cadastrados no banco de dados.
 
 Atualizar Usuário:
-
 Endpoint: PUT /api/users/{id}
 Atualiza os dados do usuário com base no id.
 
 Excluir Usuário:
-
 Endpoint: DELETE /api/users/{id}
 Remove o usuário correspondente ao id fornecido.
 
