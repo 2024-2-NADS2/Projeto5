@@ -59,10 +59,10 @@ Aperte para visualizar
 ## 🛠 Instalação
  Certifique-se de ter os seguintes softwares instalados no seu computador:
 
-[Node.js](https://nodejs.org/en/)
-[GitHub Desktop](https://desktop.github.com/download/)
-[Mysql](https://www.mysql.com/)
-[Visual Studio Code](https://code.visualstudio.com/download)
+- [Node.js](https://nodejs.org/en/)
+- [GitHub Desktop](https://desktop.github.com/download/)
+- [Mysql](https://www.mysql.com/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## 💻 Configuração do projeto
 Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
