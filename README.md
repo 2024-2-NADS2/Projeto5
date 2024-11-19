@@ -93,12 +93,11 @@ Abra outro terminal e vá para a pasta do frontend: cd frontend. Inicie o servid
 - Usuários
 
 Criar Usuário:
-
 Endpoint: POST /api/users/register
 Envie os dados do usuário no corpo da requisição (JSON):
 {
-    "name": "John Doe",
-    "email": "johndoe@example.com",
+    "name": "Nathan",
+    "email": "nathan@example.com",
     "password": "senhaSegura123"
 }
 
