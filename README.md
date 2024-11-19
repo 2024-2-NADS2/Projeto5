@@ -57,8 +57,13 @@ Aperte para visualizar
 [Link para o figma Desing System](https://www.figma.com/design/sWZ5CfRR8Eo5BJHJUUWpnG/Design-System-Helping-Out-(Copy)?node-id=0-1&node-type=canvas&t=tuZ2qgM96jj9XgYe-0)
 
 ## 🛠 Instalação
- Instale o Node.js a partir do site oficial: [Node.js.](https://nodejs.org/pt)
- 
+ Certifique-se de ter os seguintes softwares instalados no seu computador:
+
+[Node.js](https://nodejs.org/en/)
+[GitHub Desktop](https://desktop.github.com/download/)
+[Mysql](https://www.mysql.com/)
+[Visual Studio Code](https://code.visualstudio.com/download)
+
 ## 💻 Configuração do projeto
 Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
 
