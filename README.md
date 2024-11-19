@@ -66,11 +66,7 @@ Aperte para visualizar
 - [.NET SDK](https://dotnet.microsoft.com/pt-br/)
 
 ## 💻 Configuração do projeto
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
-## Clone o Repositório  
+## - Clone o Repositório  
 Abra o GitHub Desktop, clique em File > clone repository. Na aba URL, insira o seguinte link: https://github.com/2024-2-NADS2/Projeto5.git. Escolha uma pasta no seu computador para salvar o projeto e clique em clone. Depois de clonar, abra a pasta do projeto no seu editor de código.
 
 ## Instalar Dependências
