@@ -97,7 +97,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 * 0.19.19 - 03/11/2024
     * Entrega do Protótipo finalizado e do guia de estilo. (Raissa)
 * 0.18.18 - 01/11/2024
-  Banco de dados online conectado na azure. (Murilo)
+    * Banco de dados online conectado na Azure e colocou o frontend no netlify. (Murilo)
 * 0.17.17 - 30/10/2024
     * Projeto concluído para terceira entrega. (todos)
 * 0.16.16 - 29/10/2024
