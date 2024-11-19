@@ -63,11 +63,49 @@ Aperte para visualizar
 - [GitHub Desktop](https://desktop.github.com/download/)
 - [Mysql](https://www.mysql.com/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
+- [.NET SDK](https://dotnet.microsoft.com/pt-br/)
 
 ## 💻 Configuração do projeto
 Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
 
 Para abrir este projeto você necessita das seguintes ferramentas:
+
+## Clone o Repositório  
+Abra o GitHub Desktop, clique em File > clone repository. Na aba URL, insira o seguinte link: https://github.com/2024-2-NADS2/Projeto5.git. Escolha uma pasta no seu computador para salvar o projeto e clique em clone. Depois de clonar, abra a pasta do projeto no seu editor de código.
+
+## Instalar Dependências
+- Frontend (React.js)
+No terminal acesse a pasta do frontend: cd frontend. Instale as dependências do projeto: npm install.
+
+- Backend (.NET)
+No terminal, acesse a pasta do backend: cd backend. Restaure as dependências: dotnet restore.
+
+## Configure o Banco de Dados (MySQL)
+Abra o MySQL Workbench ou terminal MySQL, crie um banco de dados chamado pegada_hydrica: CREATE DATABASE pegada_hydrica;
+No backend, configure o arquivo appsettings.json com as credenciais do banco: "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=pegada_hydrica;User Id=seu_usuario;Password=sua_senha;"
+}
+
+## Rodar o Projeto
+- Backend
+Navegue para a pasta do backend no terminal: cd backend. Inicie o servidor: dotnet run. O backend estará disponível em http://localhost:5000.
+- Frontend
+Abra outro terminal e vá para a pasta do frontend: cd frontend. Inicie o servidor: npm start. O frontend estará disponível em http://localhost:3000.
+
+## Rodar Testes Automatizados
+- Testes no Backend (.NET)
+Navegue até a pasta do backend no terminal: cd backend. Execute os testes com o seguinte comando: dotnet test. O resultado dos testes será exibido no terminal, incluindo detalhes sobre falhas e sucesso.
+- Testes no Frontend (React.js)
+Navegue até a pasta do frontend no terminal: cd frontend. Execute os testes com o seguinte comando: npm test. O terminal exibirá o resultado dos testes unitários e, caso necessário, solicitará interações para depuração.
+
+## Múltiplas Plataformas
+- Windows
+Siga as etapas acima normalmente. Certifique-se de rodar os terminais como administrador ao configurar o banco de dados.
+
+- Linux/MacOS
+Instale o Node.js e o .NET SDK usando gerenciadores de pacotes (exemplo: apt, brew).
+Certifique-se de que o MySQL esteja configurado corretamente, ajustando permissões para usuários locais.
+No terminal, siga as mesmas etapas para rodar o frontend, backend e os testes.
 
 
 ## 📱 Técnicas e Tecnologias utilizadas.
