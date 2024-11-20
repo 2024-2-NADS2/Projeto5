@@ -99,11 +99,14 @@ const Login = () => {
 
             if (response.ok) {
                 const data = await response.json();
+                
                 setMessage('Login bem-sucedido!');
                 setIsError(false);
+                
                 localStorage.setItem('token', data.token);
-                localStorage.setItem('userName', data.nome); // Salva o nome do usuário
-
+                localStorage.setItem('userId', data.userId);  
+                localStorage.setItem('userName', data.nome);  
+                
                 setTimeout(() => {
                     navigate('/'); // Redireciona para a tela home após 1 segundo
                 }, 1000);

@@ -198,33 +198,42 @@ const Home = () => {
                 <section style={styles.features}>
                     <div style={styles.feature}>
                         <Link to="/entradaconsumo" style={styles.featureLink}>
-                            <h2 style={styles.featureHeading}>Entrada de Dados de Consumo</h2>
-                            <p>Insira informações sobre o uso de água em sua casa para calcular o consumo estimado.</p>
+                            <h2 style={{ ...styles.featureHeading, fontSize: '1.8rem' }}>Entrada de Dados de Consumo</h2>
+                            <p style={{ fontSize: '1rem' }}>Insira informações sobre o uso de água em sua casa para calcular o consumo estimado.</p>
                         </Link>
                     </div>
                     <div style={styles.feature}>
-                        <a href="#grafico-historico" style={styles.featureLink}>
-                            <h2 style={styles.featureHeading}>Gráficos e Histórico de Consumo</h2>
-                            <p>Visualize seu histórico de cálculos e gráficos para monitorar o consumo ao longo do tempo.</p>
-                        </a>
-                    </div>
-                    <div style={styles.feature}>
-                        <a href="#economia" style={styles.featureLink}>
-                            <h2 style={styles.featureHeading}>Sugestões de Economia</h2>
-                            <p>Receba dicas personalizadas para reduzir seu consumo de água e economizar.</p>
-                        </a>
-                    </div>
-                    <div style={styles.feature}>
-                        <a href="#download-relatorio" style={styles.featureLink}>
-                            <h2 style={styles.featureHeading}>Download de Relatório</h2>
-                            <p>Baixe um relatório em PDF com seus dados de consumo e sugestões de economia.</p>
-                        </a>
+                        <button
+                            onClick={() => {
+                                const userId = localStorage.getItem('userId');
+                                const token = localStorage.getItem('token');
+    
+                                if (!userId || !token) {
+                                    alert('Você precisa estar logado para acessar o histórico.');
+                                    navigate('/login');
+                                    return;
+                                }
+    
+                                navigate('/historico');
+                            }}
+                            style={{
+                                backgroundColor: 'transparent',
+                                border: 'none',
+                                cursor: 'pointer',
+                                textDecoration: 'none',
+                                color: '#333',
+                                textAlign: 'center',
+                            }}
+                        >
+                            <h2 style={{ ...styles.featureHeading, fontSize: '1.8rem' }}>Histórico de Consumo</h2>
+                            <p style={{ fontSize: '1rem' }}>Visualize seu histórico de cálculos para monitorar o consumo ao longo do tempo.</p>
+                        </button>
                     </div>
                 </section>
 
                 <section style={styles.callToAction}>
-                    <h2 style={styles.callToActionHeading}>Pronto para começar?</h2>
-                    <p style={styles.callToActionParagraph}>
+                    <h2 style={{ ...styles.callToActionHeading, fontSize: '2rem' }}>Pronto para começar?</h2>
+                    <p style={{ ...styles.callToActionParagraph, fontSize: '1.2rem' }}>
                         {userName ? "Monitore seu consumo de água!" : "Cadastre-se agora e comece a monitorar seu consumo de água!"}
                     </p>
                     {!userName && (
@@ -232,6 +241,7 @@ const Home = () => {
                     )}
                 </section>
             </main>
+           
 
             <footer style={styles.footer}>
                 <div style={styles.footerContent}>

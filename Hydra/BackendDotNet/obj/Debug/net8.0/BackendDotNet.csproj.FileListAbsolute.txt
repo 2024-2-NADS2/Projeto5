@@ -149,6 +149,7 @@ C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\Microso
 C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Angelim\Documents\Projeto5\Hydra\BackendDotNet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll

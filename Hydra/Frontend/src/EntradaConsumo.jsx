@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import jsPDF from 'jspdf';
 import { Chart, registerables } from 'chart.js';
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 
 Chart.register(...registerables);
 
@@ -10,6 +11,7 @@ const EntradaConsumo = () => {
     const [dadosEntrada, setDadosEntrada] = useState(null);
     const [consumoDetalhado, setConsumoDetalhado] = useState({});
     const chartRef = useRef(null);
+    const navigate = useNavigate(); // Chame o useNavigate no escopo do componente
 
     const styles = {
         body: {
@@ -132,39 +134,79 @@ const EntradaConsumo = () => {
         e.preventDefault();
         const formData = new FormData(e.target);
         const data = Object.fromEntries(formData);
-
+        
+        // Verifica se o usuário está logado
+        const userId = localStorage.getItem('userId');
+        const token = localStorage.getItem('token');
+    
+        if (!userId || !token) {
+            alert('Você precisa estar logado para calcular o consumo.');
+            navigate('/login'); // Redireciona para a página de login
+            return;
+        }
+         
+        // Prepara o payload com os dados de entrada
         const payload = {
-            numeroPessoas: parseInt(data["numero-pessoas"]),
-            chuveiroMinutos: parseInt(data["chuveiro"]),
-            descargasDiarias: parseInt(data["vaso-sanitario"]),
-            maquinaLavarSemanal: parseInt(data["maquina-lavar"]),
-            torneiraMinutos: parseInt(data["torneira"]),
-            lavagemVeiculoMensal: parseInt(data["lavagem-veiculo"]),
-            piscinaLitros: parseInt(data["manutencao-piscina"]),
-            jardinagemLitros: parseInt(data["jardinagem"]),
-            sistemaReutilizacao: data["sistema-reutilizacao"],
+            NumeroPessoas: parseInt(data["numero-pessoas"]),
+            ChuveiroMinutos: parseInt(data["chuveiro"]),
+            DescargasDiarias: parseInt(data["vaso-sanitario"]),
+            MaquinaLavarSemanal: parseInt(data["maquina-lavar"]),
+            TorneiraMinutos: parseInt(data["torneira"]),
+            LavagemVeiculoMensal: parseInt(data["lavagem-veiculo"]),
+            PiscinaLitros: parseInt(data["manutencao-piscina"]),
+            JardinagemLitros: parseInt(data["jardinagem"]),
+            SistemaReutilizacao: data["sistema-reutilizacao"],
+            UserId: parseInt(localStorage.getItem('userId')),
         };
 
+    
         setDadosEntrada(payload);
+        console.log('Payload enviado:', payload);
 
         try {
+            // Envia os dados para o cálculo de consumo
             const response = await fetch('http://localhost:5000/api/consumption/calculate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${localStorage.getItem('token')}`,
+                    'Authorization': `Bearer ${localStorage.getItem('token')}`, // Autenticação com token
                 },
                 body: JSON.stringify(payload),
             });
-
+    
+            if (!response.ok) {
+                throw new Error('Erro ao calcular o consumo.');
+            }
+    
             const result = await response.json();
+    
+            // Atualiza o estado com os resultados
             setResultado(`Consumo Estimado: ${result.totalConsumo} litros por mês`);
             setConsumoDetalhado(result.consumoDetalhado);
+    
+            // Salva o histórico de cálculos no backend
+            const historicoPayload = {
+                userId: payload.userId,
+                totalConsumo: result.totalConsumo,
+                detalhesConsumo: result.consumoDetalhado,
+            };
+    
+            await fetch('http://localhost:5000/api/consumption/salvar-historico', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${localStorage.getItem('token')}`, // Autenticação com token
+                },
+                body: JSON.stringify(historicoPayload),
+            });
+    
+            console.log('Histórico salvo com sucesso!');
         } catch (error) {
-            console.error('Erro ao calcular o consumo:', error);
-            alert('Houve um erro ao calcular o consumo.');
+            console.error('Erro ao calcular ou salvar o histórico:', error);
+            alert('Houve um erro ao calcular ou salvar o histórico. Tente novamente.');
         }
     };
+    
 
     const gerarRelatorioPDF = () => {
         const doc = new jsPDF();

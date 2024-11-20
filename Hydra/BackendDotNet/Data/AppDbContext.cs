@@ -14,6 +14,8 @@ namespace BackendDotNet.Data
             optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
         }
         public DbSet<User> Users { get; set; }
+        public DbSet<HistoricoCalculo> HistoricoCalculo { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

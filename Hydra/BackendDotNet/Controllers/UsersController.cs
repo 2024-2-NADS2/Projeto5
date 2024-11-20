@@ -41,8 +41,13 @@ namespace BackendDotNet.Controllers
             }
 
             var token = _jwtService.GenerateToken(user.Id, user.NomeCompleto);
-            
-            return Ok(new { message = "Login bem-sucedido", token, userId = user.Id, nome = user.NomeCompleto });
+            return Ok(new
+            {
+                message = "Login bem-sucedido",
+                token,
+                UserId = user.Id,  
+                nome = user.NomeCompleto
+            });
         }
     }
 }
